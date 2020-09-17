@@ -1,5 +1,3 @@
-import { type } from "os"
-
 export type RecordsResponse = {
     content: RecordItem[];
     totalPages: number;
@@ -7,11 +5,11 @@ export type RecordsResponse = {
 
 export type RecordItem = {
     id: number;
-    moment: string,
-    name: string,
-    age: number,
-    gamePlatform: Platform,   
-    genreName: string,
+    moment: string;
+    name: string;
+    age: number;
+    gamePlatform: Platform;
+    genreName: string;
     gameTitle: string;
 }
 
