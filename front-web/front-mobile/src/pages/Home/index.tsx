@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
       fontSize: 18,
       color: '#0B1F34',
     }
-  });
+});
   
 
 export default Home;
